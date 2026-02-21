@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrewLab Café</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Prompt:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <div class="container nav">
+        <div class="logo">☕ BrewLab Café</div>
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#" class="btn">สั่งซื้อเลย</a>
+        </nav>
+        <div class="hamburger">☰</div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container hero-content">
+        <h1>ปลุกแรงบันดาลใจในทุกแก้วกาแฟ</h1>
+        <p>พื้นที่สร้างสรรค์สำหรับทุกไอเดีย พร้อมกาแฟคุณภาพพรีเมียม</p>
+        <div class="hero-buttons">
+            <a href="#" class="btn">สั่งซื้อเลย</a>
+            <a href="#" class="btn-outline">ดูเมนูทั้งหมด</a>
+        </div>
+    </div>
+</section>
+
+<section class="features container">
+    <div class="feature">
+        <h3>☕ Specialty Coffee</h3>
+        <p>เมล็ดกาแฟคัดพิเศษ รสชาติระดับพรีเมียม</p>
+    </div>
+    <div class="feature">
+        <h3>💻 Creative Space</h3>
+        <p>ฟรี WiFi และปลั๊กทุกโต๊ะ เหมาะกับการทำงาน</p>
+    </div>
+    <div class="feature">
+        <h3>🌿 Organic Ingredients</h3>
+        <p>ใช้วัตถุดิบสดใหม่ ใส่ใจสุขภาพ</p>
+    </div>
+</section>
+
+<section class="menu-section">
+    <div class="container">
+        <h2>เมนูแนะนำ</h2>
+        <div class="menu-grid">
+            <div class="card">
+                <h3>Latte Art</h3>
+                <p>฿120</p>
+                <a href="#" class="btn">สั่งซื้อ</a>
+            </div>
+            <div class="card">
+                <h3>Matcha Latte</h3>
+                <p>฿130</p>
+                <a href="#" class="btn">สั่งซื้อ</a>
+            </div>
+            <div class="card">
+                <h3>Cold Brew</h3>
+                <p>฿110</p>
+                <a href="#" class="btn">สั่งซื้อ</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="promo">
+    <div class="container">
+        <h2>สมัครสมาชิกวันนี้ รับส่วนลด 10%</h2>
+        <a href="#" class="btn">ลงทะเบียนรับสิทธิ์</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2026 BrewLab Café | Bangkok, Thailand</p>
+    </div>
+</footer>
+
+<script>
+document.querySelector(".hamburger").addEventListener("click", function() {
+    document.querySelector(".menu").classList.toggle("active");
+});
+</script>
+
+</body>
+</html>
